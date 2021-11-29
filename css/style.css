@@ -18,13 +18,29 @@ body {
 #navbar .navbar-container {
   width: 60%;
   display: flex;
+  background-color: black;
+  color: white;
   align-items: center;
-  align-content: space-between;
+  justify-content: space-between;
   padding: 20px 0;
 }
 
 #navbar .navbar-container .logo {
   height: 40px;
+  width: auto;
+  margin-left: -20%;
 }
 
+#navbar .navbar-container ul {
+  display: flex;
+  list-style: none;
+  margin-right: -20%;
+}
 
+#navbar .navbar-container ul li {
+  padding: 0 20px;
+}
+
+#navbar .navbar-container ul li:nth-child(3) {
+  border-right: 1px solid white;
+}
