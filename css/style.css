@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#navbar {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: center;
+}
+
+#navbar .navbar-container {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  padding: 20px 0;
+}
+
+#navbar .navbar-container .logo {
+  height: 40px;
+}
+
+
