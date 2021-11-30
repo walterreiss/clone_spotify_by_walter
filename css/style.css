@@ -19,6 +19,12 @@ body {
   border-radius: 30px;
 }
 
+.logo {
+  height: 40px;
+  width: auto;
+  margin-left: -20%;
+}
+
 /*Navbar*/
 
 #navbar {
@@ -37,12 +43,6 @@ body {
   justify-content: space-between;
   padding: 20px 0;
   font-weight: bold;
-}
-
-#navbar .navbar-container .logo {
-  height: 40px;
-  width: auto;
-  margin-left: -20%;
 }
 
 #navbar .navbar-container ul {
