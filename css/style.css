@@ -87,3 +87,20 @@ body {
   font-size: 18px;
   color: #1ED760;
 }
+
+/*Footer*/
+
+#footer {
+  background: black;
+  color: white;
+}
+
+#footer .footer-content {
+  display: flex;
+  width: 60%;
+  margin: auto;
+}
+
+#footer .footer-content .footer-menu {
+  margin: 0 20px;
+}
