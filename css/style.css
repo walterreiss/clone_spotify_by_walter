@@ -100,6 +100,8 @@ body {
   display: flex;
   width: 60%;
   margin: auto;
+  font-size: 16px;
+  justify-content: flex-end;
 }
 
 #footer .footer-content .footer-menu {
@@ -145,17 +147,22 @@ body {
   list-style: none;
 }
 
-.footer-info .rights {
-  
+.footer-info .footer-info-item {
+  margin: 0 10px;
+  font-size: 13px;
 }
 
 .footer-info .rights .country {
   display: flex;
   font-size: 13px;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .footer-info .rights .country .brazil-flag {
   height: 17px;
   width: auto;
   display: inline-block;
+  margin-left: 10px;
 }
